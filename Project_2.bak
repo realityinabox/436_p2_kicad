@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:SelfGenerated
+LIBS:ipc-7351-diode
 LIBS:Project_2-cache
 EELAYER 25 0
 EELAYER END

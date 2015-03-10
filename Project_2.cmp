@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-20 BZR 5437)-product   date = Monday, March 09, 2015 'AMt' 10:39:40 AM
+Cmp-Mod V01 Created by Cvpcb (2015-02-20 BZR 5437)-product   date = Monday, March 09, 2015 'PMt' 08:26:05 PM
 
 BeginCmp
 TimeStamp = /54F0D3D1/54F0ADC1;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /54F0D3D1/54F0B6E4;
 Reference = C3;
 ValeurCmp = 100uF;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /54F0D3D1/54F88575;
 Reference = C25;
 ValeurCmp = 100uF;
-IdModule  = Capacitors_SMD:c_elec_5x5.3;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -185,92 +185,92 @@ EndCmp
 BeginCmp
 TimeStamp = /54F0D3D1/54F0D419;
 Reference = D1;
-ValeurCmp = DIODESCH;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F1FD2A/54F17289;
 Reference = D2;
 ValeurCmp = MBR130T1G;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F1FD2A/54F16582;
 Reference = D3;
 ValeurCmp = MBR130T1G;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F1FD2A/54F1760B;
+TimeStamp = /54F1FD2A/54FDD3C3;
 Reference = D4;
-ValeurCmp = DFLS1100-7;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F1FD2A/54F16C43;
+TimeStamp = /54F1FD2A/54FDD309;
 Reference = D5;
-ValeurCmp = DFLS1100-7;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F1FD2A/54F1B1EB;
+TimeStamp = /54F1FD2A/54FDD554;
 Reference = D6;
-ValeurCmp = DFLS1100-7;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F1FD2A/54F1CF91;
+TimeStamp = /54F1FD2A/54FDD587;
 Reference = D7;
-ValeurCmp = DFLS1100-7;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F1FD2A/54F1CF31;
+TimeStamp = /54F1FD2A/54FDD344;
 Reference = D8;
-ValeurCmp = DFLS1100-7;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F1FD2A/54F1CF4B;
+TimeStamp = /54F1FD2A/54FDD383;
 Reference = D9;
-ValeurCmp = DFLS1100-7;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F1FD2A/54F1CF24;
 Reference = D10;
 ValeurCmp = MBR130T1G;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F1FD2A/54F1CF3E;
 Reference = D11;
 ValeurCmp = MBR130T1G;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F0D3D1/54F88BDE;
 Reference = D12;
 ValeurCmp = DIODESCH;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F0D3D1/54F88599;
 Reference = D13;
-ValeurCmp = DIODESCH;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+ValeurCmp = MBR130T1G;
+IdModule  = KiCadFP:Diode-SOD_123_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /54F0D3D1/54F0AFA8;
 Reference = L1;
 ValeurCmp = 47uH;
-IdModule  = Inductors:SELF-WE-PD-XXL;
+IdModule  = Inductors:SELF-WE-TPC_M;
 EndCmp
 
 BeginCmp
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /54F0D3D1/54F88555;
 Reference = L3;
 ValeurCmp = 47uH;
-IdModule  = Inductors:SELF-WE-PD-XXL;
+IdModule  = Inductors:SELF-WE-TPC_M;
 EndCmp
 
 BeginCmp
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /54EE2CC6/54EF78DB;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -449,9 +449,9 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EE2CC6/54EF6978;
+TimeStamp = /54F1B969/54FE400E;
 Reference = R15;
-ValeurCmp = 49.9;
+ValeurCmp = 33;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
@@ -645,6 +645,69 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /54F1B969/54FE4F8F;
+Reference = R43;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE4FF6;
+Reference = R44;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE5042;
+Reference = R45;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE5155;
+Reference = R46;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE51A3;
+Reference = R47;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE51EB;
+Reference = R48;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE5234;
+Reference = R49;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE527F;
+Reference = R50;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B969/54FE52CC;
+Reference = R51;
+ValeurCmp = 33;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /54EE2CC6/54EF45C4;
 Reference = RB1;
 ValeurCmp = 1Meg;
@@ -760,7 +823,7 @@ BeginCmp
 TimeStamp = /54F0D3D1/54FCB76E;
 Reference = U5;
 ValeurCmp = TLV2371_DBV;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23-5;
+IdModule  = KiCadFP:TSOT-6-MK06A_Handsoldering;
 EndCmp
 
 EndListe

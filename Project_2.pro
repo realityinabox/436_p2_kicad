@@ -1,4 +1,4 @@
-update=Wednesday, February 25, 2015 'AMt' 11:20:15 AM
+update=Monday, March 09, 2015 'PMt' 01:25:07 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../KiCad Symbols
+LibDir=../KiCad Symbols;../KiCadFP
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/Users/Steve/Dropbox/GVSU/13_Winter_2015/EGR 436/05_Projects/Project 2/KiCad Symbols/SelfGenerated
+LibName32=/Users/Steve/Dropbox/GVSU/13_Winter_2015/EGR 436/05_Projects/Project 2/KiCadFP/ipc-7351-diode

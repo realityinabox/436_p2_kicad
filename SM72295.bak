@@ -175,28 +175,6 @@ F 3 "" H 4300 2400 60  0000 C CNN
 	1    4300 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Rh R21
-U 1 1 54F0FFC1
-P 4200 3850
-F 0 "R21" H 4000 3900 50  0000 C CNN
-F 1 "0" H 4350 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4200 3780 30  0001 C CNN
-F 3 "" V 4200 3850 30  0000 C CNN
-	1    4200 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Rh R20
-U 1 1 54F10058
-P 4200 3750
-F 0 "R20" H 4000 3800 50  0000 C CNN
-F 1 "0" H 4350 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4200 3680 30  0001 C CNN
-F 3 "" V 4200 3750 30  0000 C CNN
-	1    4200 3750
-	1    0    0    -1  
-$EndComp
 Text HLabel 2100 3750 0    60   Output ~ 0
 BIN_OUT
 $Comp
@@ -291,8 +269,6 @@ F 3 "" H 6100 4450 60  0000 C CNN
 	1    6100 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 2100 3950 0    60   Output ~ 0
-BOUT
 $Comp
 L C C16
 U 1 1 54F26CD0
@@ -373,8 +349,6 @@ Text HLabel 8350 3650 2    60   Output ~ 0
 HOB
 Text Notes 6550 6000 2    60   ~ 0
 Current sense amp gain is RL/RI, where RI is the external resistor in series with the SIA/B pin.
-Text Notes 3900 3950 2    60   ~ 0
-Why is this here?
 $Comp
 L Vin_D #PWR045
 U 1 1 54F27620
@@ -453,7 +427,7 @@ Connection ~ 2850 3850
 Wire Wire Line
 	2850 5050 2850 4850
 Wire Wire Line
-	2100 3850 4000 3850
+	2100 3850 4650 3850
 Wire Wire Line
 	2850 4450 2850 3850
 Wire Wire Line
@@ -462,11 +436,7 @@ Connection ~ 2400 3750
 Wire Wire Line
 	2400 4450 2400 3750
 Wire Wire Line
-	2100 3750 4000 3750
-Wire Wire Line
-	4400 3750 4650 3750
-Wire Wire Line
-	4400 3850 4650 3850
+	2100 3750 4650 3750
 Connection ~ 4550 1800
 Wire Wire Line
 	4300 1800 4550 1800
@@ -510,11 +480,6 @@ Wire Wire Line
 	6050 1750 6050 2550
 Wire Wire Line
 	3750 3450 4650 3450
-Wire Wire Line
-	2100 3950 4550 3950
-Wire Wire Line
-	4550 3950 4550 3850
-Connection ~ 4550 3850
 Wire Wire Line
 	3350 5000 3350 5100
 Wire Wire Line
@@ -610,13 +575,6 @@ F 3 "" H 6600 4700 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6600 4600 6600 4700
-Wire Wire Line
-	4550 3750 4550 3650
-Wire Wire Line
-	4550 3650 2100 3650
-Connection ~ 4550 3750
-Text HLabel 2100 3650 0    60   Output ~ 0
-BIN
 $Comp
 L 5VDC #PWR049
 U 1 1 54F8B7CD
